@@ -14,7 +14,7 @@ RUN  echo "<h1>  Hello this is test site</h1> "  >  /usr/share/nginx/html/index.
 
 #VOLUME ["/usr/share/ngin/html"]
 
-COPY  ./dockerfilenginx   /root/
+#COPY  ./dockerfilenginx   /root/
 
 VOLUME /usr/share/nginx/html
 
